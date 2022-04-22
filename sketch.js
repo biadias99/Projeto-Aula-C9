@@ -1,3 +1,4 @@
+var box;
 
 function setup() {
   createCanvas(400,400);
@@ -30,6 +31,7 @@ function draw()
   {
     background("green");
   }
+
  if (keyIsDown(RIGHT_ARROW)){
    background("red");
  }
